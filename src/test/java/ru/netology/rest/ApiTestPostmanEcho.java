@@ -17,7 +17,7 @@ class ApiTestPostmanEcho {
                 .post("/post")
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("inform"))
+                .body("data", equalTo("data"))
         ;
     }
 }
